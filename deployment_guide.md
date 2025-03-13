@@ -46,7 +46,7 @@ sudo mysql_secure_installation
 ```sql
 CREATE DATABASE photo_gallery;
 
-CREATE USER 'photo_user'@'localhost' IDENTIFIED BY '你的密码';
+CREATE USER 'photo_user'@'localhost' IDENTIFIED BY 'Qaz586200.';
 
 GRANT ALL PRIVILEGES ON photo_gallery.* TO 'photo_user'@'localhost';
 
@@ -81,7 +81,7 @@ sudo mkdir -p /var/www/photo-gallery
 sudo chown -R $USER:$USER /var/www/photo-gallery
 
 # 克隆代码（替换为你的Git仓库地址）
-git clone <你的仓库地址> /var/www/photo-gallery
+git clone https://github.com/Agionluo/imgwangzhan2 /var/www/photo-gallery
 cd /var/www/photo-gallery
 ```
 
